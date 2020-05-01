@@ -1,0 +1,53 @@
+{
+  "name": "@dadajam4/busy-sidebar",
+  "version": "0.1.0",
+  "description": "It is a fork of the wonderful `Sticky Sidebar` and customized.",
+  "main": "dist/busy-sidebar.common.js",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "nuxt-ts",
+    "docs": "nuxt-ts generate",
+    "build": "npm run docs && plugboy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dadajam4/busy-sidebar.git"
+  },
+  "keywords": [
+    "sidebar",
+    "sticky",
+    "typescript"
+  ],
+  "author": "dadajam4",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dadajam4/busy-sidebar/issues"
+  },
+  "homepage": "https://github.com/dadajam4/busy-sidebar#readme",
+  "files": [
+    "dist",
+    "types",
+    "src"
+  ],
+  "module": "dist/busy-sidebar.esm.js",
+  "jsdelivr": "dist/busy-sidebar.min.js",
+  "unpkg": "dist/busy-sidebar.min.js",
+  "types": "types/index.d.ts",
+  "sideeffects": false,
+  "devDependencies": {
+    "@dadajam4/plugboy": "^0.2.0",
+    "@nuxt/typescript-build": "^0.6.6",
+    "@nuxt/typescript-runtime": "^0.4.6",
+    "@types/resize-observer-browser": "^0.1.3",
+    "node-sass": "^4.14.0",
+    "nuxt": "^2.12.2",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-typescript2": "^0.27.0",
+    "sass-loader": "^8.0.2",
+    "sticky-sidebar": "^3.3.1"
+  }
+}
