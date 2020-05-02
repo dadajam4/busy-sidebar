@@ -114,10 +114,6 @@ $header-wide-height: 200px;
     font-weight: bold;
     transition: height 0.35s;
 
-    .my--header-wide & {
-      height: $header-wide-height;
-    }
-
     button {
       position: absolute;
       top: 50%;
@@ -132,6 +128,10 @@ $header-wide-height: 200px;
     &__btn-right {
       right: 10px;
     }
+  }
+
+  .my--header-wide .my-header {
+    height: $header-wide-height;
   }
 
   .my-lead {
