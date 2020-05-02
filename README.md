@@ -14,6 +14,9 @@ This is to prevent unnecessary errors under SSR environment.
 - The interface has been slightly revised to make it easier to use from frameworks such as Vue and React.
 - Use "[ResizeObserver](https://developer.mozilla.org/ja/docs/Web/API/ResizeObserver)" instead of "[ResizeSensor.js](https://github.com/marcj/css-element-queries/blob/master/src/ResizeSensor.js)". The reason is that "Resize Observer" is standardly implemented in all browsers.
 
+## Demo
+[https://dadajam4.github.io/busy-sidebar/](https://dadajam4.github.io/busy-sidebar/)
+
 ## Instlration
 
 ```
