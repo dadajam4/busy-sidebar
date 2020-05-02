@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npm run dev",
     "dev": "nuxt-ts",
-    "docs": "nuxt-ts generate",
+    "docs": "DEPLOY_ENV=GH_PAGES nuxt-ts generate",
     "build": "npm run docs && plugboy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -28,7 +28,12 @@ const config: Configuration = {
     ],
   },
 
-  // plugins: ['~/plugins/lib'],
+  router:
+    process.env.DEPLOY_ENV === 'GH_PAGES'
+      ? {
+          base: '/busy-sidebar/',
+        }
+      : undefined,
 };
 
 export default config;
