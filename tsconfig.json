@@ -21,12 +21,7 @@
       "~~/*": ["./*"],
       "@@/*": ["./*"]
     },
-    "types": [
-      "./types/vue",
-      "@types/node",
-      "@types/resize-observer-browser",
-      "@nuxt/types"
-    ]
+    "types": ["@types/node", "@types/resize-observer-browser", "@nuxt/types"]
   },
   "exclude": ["node_modules"]
 }

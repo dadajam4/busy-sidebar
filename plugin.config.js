@@ -9,12 +9,12 @@ module.exports = {
       exclude: [path.join(__dirname, 'types')],
     },
   },
-  vue: false,
-  sass: false,
-  postcss: false,
-  autoprefixer: false,
-  // external: ['vue'],
-  // globals: {
-  //   vue: 'Vue',
-  // },
+  vue: true,
+  sass: true,
+  postcss: true,
+  autoprefixer: true,
+  external: ['vue'],
+  globals: {
+    vue: 'Vue',
+  },
 };
