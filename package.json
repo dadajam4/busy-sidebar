@@ -1,6 +1,6 @@
 {
   "name": "@dadajam4/busy-sidebar",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "It is a fork of the wonderful `Sticky Sidebar` and customized.",
   "main": "dist/busy-sidebar.common.js",
   "scripts": {
