@@ -674,7 +674,7 @@ export default class BusySidebar {
         inner = {
           position: 'fixed',
           top: 'auto',
-          left: `${dims.sidebarLeft}px`,
+          left: `${dims.sidebarLeft - dims.viewportLeft}px`,
           bottom: `${dims.bottomSpacing}px`,
           width: `${dims.sidebarWidth}px`,
         };

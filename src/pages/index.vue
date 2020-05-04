@@ -168,6 +168,7 @@ $header-wide-height: 200px;
 
   .my-columns {
     width: 100%;
+    min-width: 920px;
     margin: 0 auto;
 
     @include wide {
